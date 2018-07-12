@@ -2,8 +2,6 @@
 #include<cstring>
 #include<vector>
 
-using namespace std;
-
 char *dis_find(const char *t , const char *a){    /// function......
 
 unsigned init(0),
@@ -67,7 +65,7 @@ int main()
 {
    char vic[] = "c++ programmers are awesome";
 
-   cout<<dis_find(vic,"c++")<<endl;  /// cstring clone...ish....
+   std::cout<<dis_find(vic,"c++")<<std::endl;  /// cstring clone...ish....
  
-cout<<strstr(vic,"c++");     /// the cstring function.... 
+std::cout<<strstr(vic,"c++");     /// the cstring function.... 
 }
