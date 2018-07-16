@@ -29,7 +29,7 @@ unsigned init(0),
         break;
     }
 
-    if(t[i] == ' '  || i == strlen(t)-1 && init!=strlen(a)){
+    if(i == strlen(t)-1 && init!=strlen(a)){
 
         init = 0;
         count_t =0;       //// reset values under the above conditons
@@ -65,7 +65,7 @@ int main()
 {
    char vic[] = "c++ programmers are awesome";
 
-   std::cout<<dis_find(vic,"c++")<<std::endl;  /// cstring clone...ish....
+   std::cout<<dis_find(vic,"pro")<<std::endl;  /// cstring clone...ish....
  
-std::cout<<strstr(vic,"c++");     /// the cstring function.... 
+std::cout<<strstr(vic,"pro");     /// the cstring function.... 
 }
