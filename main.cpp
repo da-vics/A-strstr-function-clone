@@ -1,6 +1,5 @@
 #include <iostream>
 #include<cstring>
-#include<vector>
 
 char *dis_find(const char *t , const char *a){    /// function......
 
