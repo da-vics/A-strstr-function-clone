@@ -56,10 +56,10 @@ unsigned init(0),
         }
        point_char[get_size] = '\0';
 
-
-    return point_char;
     delete [] point_char;
     point_char = nullptr;
+  
+  return point_char;
 
  }
  else{
